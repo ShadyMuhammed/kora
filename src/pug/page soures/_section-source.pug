@@ -1,0 +1,63 @@
+#app-box.container
+  .ads.mb15.mt15
+    img( style=" margin-left: auto;margin-right: auto;" src="img/ad/768x90.png", alt="" )
+  .page-content
+    section.main-section
+      //- .row
+      //-   .col-md-2
+      include ../components/clubs-column.pug
+        //- .col-md-10
+        //-   .row.noMr
+        //-     .col-md-12
+      .row
+        .col-md-6.col-lg-8.col-sm-12
+          -
+            var post = { text:titles[0], img:imgs[0], className: "news-card--large" , theme :'card_news'}
+          include ../components/_news-card.pug
+          
+        .col-md-6.col-sm-12.col-lg-4
+          -for(let x =0 ; x < 2 ; x++)
+            -
+              var post = {text:titles[x], img:imgs[x], className: "news-card--over" , theme :'card_news'}
+            include ../components/_news-card.pug
+        .row.noMr
+            -for(let x =0 ; x < 9 ; x++)
+              .col-md-6.col-sm-12.col-lg-4
+                -
+                  var post = { text:titles[x], img:imgs[x], className: "news-card--card" , theme :'card_news'} 
+                include ../components/_news-card.pug
+        
+    aside.custom-touch
+      -for(let x =0 ; x < 1 ; x++)
+         .ads.ads--square
+            img(src="img/300.jpeg", alt="" style="  width:300px ; height:250px;")
+      .main-title.border.smPadding.mb15.mt15
+        span.main-title-square
+        h1 اهم الأخبار
+      -for(let i = 0 ; i < 7 ; i++)
+        -
+          var post = { text:titles[i], img:imgs[i]}
+        include ../components/_side-card.pug
+  .ads.mb15.mt15
+    img( style=" margin-left: auto;margin-right: auto;" src="img/ad/768x90.png", alt="" )
+  .main-title.border.smPadding.mb15.mt15
+        span.main-title-square
+        h1 اهم اي حاجة في الدنيا 
+  .page-content
+    .row.mrg-5
+      -for(let x =0 ; x < 10 ; x++)
+        .col-md-6.col-sm-12.col-lg-3
+          -
+            var post = { text:titles[x], img:imgs[x], className: "news-card--card" , theme :'card_news'} 
+          include ../components/_news-card.pug
+
+  //-       //- include ../components/_mail-card.pug
+  //-       //- h1.jobs-title.border.smPadding.lgTitle.mb15 أهم s
+  //- h1.jobs-title.border.smPadding.lgTitle.mb15 دوريات 
+
+  //- section.main-section
+  //-   .row
+  //-     -for(let i =0 ; i < 4 ; i++)
+  //-       .col-md-3.handle-mr
+  //-         include ../components/_news-card.pug
+          

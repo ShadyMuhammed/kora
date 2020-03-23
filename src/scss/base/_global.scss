@@ -1,0 +1,274 @@
+.Btn{
+transition: .2s;
+    border-radius: 3px;
+    border: 0px;
+    min-width: 85px;
+    font-size: 14px;
+    padding: 9px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+
+    &--primary{
+        background: $orange;
+        color:$wh;
+        border: 2px solid $orange;
+        &:hover{
+          background: $wh;
+        color:$orange;
+        background: transparent;
+        }
+    }
+    &--secondary{
+        background: transparent;
+        color: $orange;
+        border: 1px solid $orange;
+        font-weight: bold;
+        &:hover{
+          background: $orange;
+        color:$wh;
+        }
+    }
+    &--w150{
+        width: 150px;
+        height: 40px;
+
+    }
+  }
+.mb15{
+margin-bottom: 15px;
+}
+.negativeMargin{
+  margin-#{$left} : -15px;
+  }
+.mt20{
+  margin-top: 20px;
+  }
+.mb20{
+  margin-bottom: 20px;
+  }
+  .mb10{
+    margin-bottom: 10px;
+  }
+.mt15{
+  margin-top: 15px;
+  }
+  .pt15{
+    padding-top:15px;
+  }
+  .pb15{
+    padding-bottom:15px;
+  }
+  .pt20{
+    padding-top:20px;
+  }
+  .pb20{
+    padding-bottom:20px;
+  }
+.smallTitle{
+color : $lightGry;
+
+}
+.lgTitle{
+  color : $gray1;
+
+  }
+  .normalTitle{
+    color : $gray1;
+    line-height: 30px;
+
+  }
+.ml20{
+  margin-#{$left} : 20px;
+}
+.ml15{
+  margin-#{$left} : 15px;
+}
+.mr20{
+  margin-#{$right} : 20px;
+}
+.mr15{
+  margin-#{$right} : 15px;
+}
+.border{
+  border: 1px solid $gray2;
+  background: #ffffff;
+}
+.padding{
+padding: 25px;
+@include mediaMax(1024px){
+  padding: 18px;
+}
+}
+.smPadding{
+padding: 15px;
+}
+.inputText{
+  padding: 9px;
+    border-radius: 3px;
+    border: 1px $lightGry solid;
+    background: transparent;
+}
+
+.icons{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* The check-box */
+.check-box {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check-box input {
+  position: absolute;
+  opacity: 1;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.check-box:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check-box input:checked ~ .checkmark {
+  background-color: $orange;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check-box input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check-box .checkmark:after {
+  left: 7px;
+  top: 2px;
+  width: 7px;
+  height: 13px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.secondaryLink{
+
+  color: $gray1;
+  &:hover{
+  color: $orange;
+  }
+}
+.col-lg-8{
+
+  @media only screen and(min-width: 992px){
+
+    flex: 0 0 100% !important;
+    max-width: 100% !important
+  }
+  @media only screen and(min-width: 1024px){
+
+    flex: 0 0 66.666667%!important;;
+    max-width: 66.666667%!important;;
+  }
+}
+.page-content{
+display: flex;
+@include mediaMax(1024px){
+  flex-direction: column;
+}
+  .main-section{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+    @include mediaMin (1024px){
+      margin-left: 20px;
+      flex-direction: unset;
+    }
+  }
+
+  aside{
+    min-width: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    @include mediaMax(1024px){
+      max-width: unset;
+    }
+  }
+
+}
+#app-box{
+margin-top: 100px;
+@include mediaMax (1024px){
+  margin-top: 65px;
+}
+}
+.p5{
+  padding: 0px 5px
+}
+.noMr{
+  margin: 0px !important;
+}
+.mrg-5{
+  margin-left: -5px !important;
+  margin-right: -5px !important;
+}
+.main-title-square{
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  background: $orange;
+  display: inline-flex;
+  margin-left: 15px;
+}
+.main-title{
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  }
+  .ads{
+    margin-left: auto;
+    margin-right: auto;
+    &--square{
+      max-width: 300px; 
+      min-width: 300px;
+
+    }
+  }

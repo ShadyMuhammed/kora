@@ -1,0 +1,36 @@
+.blue{//
+    @include colorSet($blue, $wh);
+}
+.green{
+     @include colorSet($orange, $wh);
+}
+.red{
+     @include colorSet($red, $wh);
+}
+.purple{
+     @include colorSet($purple, $wh);
+}
+.yellow{
+    @include colorSet($yellow, $bk);
+}
+.orange{
+    @include colorSet($orange, $bk);
+}
+.orangeLame{
+    @include colorSet($yellow, $bk);
+}
+.gry{
+
+    @include colorSet($lightGry, $primaryText);
+}
+.gry-dark{
+
+    @include colorSet($gry, $primaryText);
+}
+.white{//
+    @include colorSet($wh, $primaryText);
+}
+
+.dark{
+    @include colorSet($primaryText, $primaryColor);
+}

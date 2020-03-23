@@ -1,0 +1,24 @@
+.job-card{
+  margin-bottom: 15px;
+
+  &__title{
+    font-size: 18px;
+    font-family: 'Aljazeera-b';
+    color: $MainBlue;
+  }
+  &__smallTitle{
+
+  }
+  &__text{
+
+  }
+  &__buttons{
+
+  }
+}
+.jobs-title{
+// font-size: 17px;
+// font-weight: 600;
+display: flex;
+}
+

@@ -1,0 +1,43 @@
+//[1] BASE
+	@import 'base/_variables.scss';
+	@import 'base/_mixins.scss';
+	@import 'base/_normalize.scss';
+  @import 'base/_layout.scss';
+  @import 'base/_global.scss';
+
+
+
+//[2] moduls
+	// @import 'moduls/_colors.scss';
+	// @import 'moduls/_form.scss';
+	// @import 'moduls/_buttons.scss';
+	// @import 'moduls/_animation.scss';
+
+	// @import 'moduls/_flags.scss';
+
+//[3] Shared
+
+
+
+//[4] components
+@import '../../css/grid.scss';
+@import 'components/_header.scss';
+// @import 'components/_job-card.scss';
+// @import 'components/_mail-card.scss';
+// @import 'components/_home-search.scss';
+// @import 'components/_global-search.scss';
+// @import 'components/_browse-list.scss';
+// @import 'components/_job-details-card.scss';
+// @import 'components/_advanced-seach.scss';
+@import 'components/_news-card.scss';
+@import 'components/_clubs-column.scss';
+@import 'components/_side-card.scss';
+
+
+
+
+
+//[5] moduls
+	// @import 'moduls/_colors.scss';
+
+

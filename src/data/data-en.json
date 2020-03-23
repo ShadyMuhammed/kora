@@ -1,0 +1,459 @@
+{
+	"content": [
+		{
+			"img": "img/content/1.jpg",
+			"title": "2018 FIFA World Cup FAN ID distribution centres opened in five cities of Russia",
+			"abstract": "FAN ID distribution centres opened in Moscow, Saint Petersburg, Sochi, Kazan and Kaliningrad. The IDs are required for visiting the 2018 FIFA World Cup Russia™ matches.",
+			"auther":"Vitaly Mutko"
+
+		}, {
+			"img": "img/content/2.jpg",
+			"title": "Fan Exchange: Liverpool – Moscow",
+			"abstract": "oday, on December 6, at 10:45 p.m. Moscow time, the match of the last sixth round of the group stage of the Champions League between Spartak and Liverpool will begin. Muscovites will play away at the Anfield ",
+			"auther":"Archmedis"
+
+		}, {
+			"img": "img/content/3.jpg",
+			"title": "Winners of 2018 World Cup Volunteer Programme contest announced",
+			"abstract": "The winners of the All-Russian contest of socially significant projects entitled Heritage of the Volunteer Programme of 2018 World Cup were announced at the Skolkovo Innovation Centre.",
+			"auther":"Alexander payne"
+
+		}, {
+			"img": "img/content/4.jpg",
+			"title": "The 2018 FIFA World Cup Final Draw: all flags on a visit to us",
+			"abstract": "The national teams participating in the 2018 FIFA World Cup will learn about their rivals and the way to the prized trophy on December 1 in the Kremlin",
+			"auther":"Khuarizmy"
+
+		}, {
+			"img": "img/content/5.jpg",
+			"title": "Gazzaev Complex",
+			"abstract": "After the collapse of the Soviet Union, the hegemon of Russian football was Spartak.",
+			"auther":"Auto Haxel"
+
+		}, {
+			"img": "img/content/6.jpg",
+			"title": "The football in the spotlight",
+			"abstract": "Adidas unveiled the official football of the 2018 FIFA World Cup Russia™ in Moscow on November 9, prompting welcome2018.com to look back on the history of World Cup footballs.",
+			"auther":"Henery Ford"
+
+		}, {
+			"img": "img/content/7.jpg",
+			"title": "2018 World Cup Final Draw tagline is \"Where the stars align\"",
+			"abstract": "The phrase \"Where the stars align\" was chosen as a tagline for the Final Draw for the 2018 FIFA World Cup Russia™,\" the FIFA report says. The solemn ceremony will take place on December 1 in the State Kremlin Palace.",
+			"auther":"Bil Gates"
+
+		}, {
+			"img": "img/content/8.jpg",
+			"title": "Tickets for free World Cup 2018 trains now available for booking",
+			"abstract": "Tickets for free trains for fans of the 2018 FIFA World Cup Russia™ are now available for booking. You can send the application via the Transport Directorate website.",
+			"auther":"Steve Jobs"
+
+		}, {
+			"img": "img/content/9.jpg",
+			"title": "FAN ID registration begins",
+			"abstract": "The Ministry of Communications and Mass Media of the Russian Federation announced the beginning of accepting applications for FAN ID registration for the 2018 FIFA World Cup Russia™ ",
+			"auther":"Ritchard Branson"
+
+		}, {
+			"img": "img/content/10.jpg",
+			"title": "Championship among fans may be held in Russia during 2018 World Cup",
+			"abstract": "An international football tournament among fans may be held in Russia during the 2018 FIFA World Cup  Russia™. This was announced by the president of Russia Unites, the club of the Russia national team Eduard Latypov.",
+			"auther":"Elune Mask"
+
+		}, {
+			"img": "img/content/11.jpg",
+			"title": "World Cup 2018 FAN ID design unveiled",
+			"abstract": "The Ministry of Communications and Mass Media of the Russian Federation has presented the new FAN ID design, which will be valid for the duration of the 2018 FIFA  World Cup Russia™.",
+			"auther":"Enistine"
+		}, {
+			"img": "img/content/12.jpg",
+			"title": "Zabivaka's 2017 milestones",
+			"abstract": "A year ago, the competition for the creation of the 2018 FIFA World Cup Russia™ Official Mascot was completed. The winner of the people's choice became a wolf named Zabivaka, who collected 53% of the vote.",
+			"auther":"Ahmed Zwail"
+		}, {
+			"img": "img/content/13.jpg",
+			"title": "Five more World Cup participants determined",
+			"abstract": "15 participants of the 2018 FIFA  World Cup Russia™ have already been determined. Over the weekend berths to the final phase were won by the teams of Egypt, Spain, Costa Rica, Nigeria and Poland.",
+			"auther":"Karl marks"
+		}, {
+			"img": "img/content/14.jpg",
+			"title": "Liverpool four",
+			"abstract": "Almost 25 years have passed since the first meeting between Moscow Spartak and Liverpool. In a 1/8 final of the Cup Winners' Cup in autumn 1992, the red and whites scored four goals, defeating the British with a score of 4 - 2.",
+			"auther":"Fredric Angels"
+		}, {
+			"img": "img/content/15.jpg",
+			"title": "FIFA World Cup Trophy visits Omsk",
+			"abstract": "For the first time in history, the FIFA World Cup Trophy visited Omsk. This happened during the FIFA World Cup Trophy Tour by Coca-Cola. The World Cup was held in Omsk for four days. ",
+			"auther":"Al Sayed Al Badawey"
+		}
+	],
+	"countries":[
+		{
+			"name":"Egypt",
+			"img":"img/flags/worldCupFlags-svg/663.svg"
+		},
+		{
+			"name":"Saudi Arabia",
+			"img":"img/flags/worldCupFlags-svg/697.svg"
+		},
+		{
+			"name":"Morocco",
+			"img":"img/flags/worldCupFlags-svg/685.svg"
+		},
+		{
+			"name":"Tunisia",
+			"img":"img/flags/worldCupFlags-svg/709.svg"
+		},
+		{
+			"name":"Russia",
+			"img":"img/flags/worldCupFlags-svg/696.svg"
+		},
+		{
+			"name":"Serbia",
+			"img":"img/flags/worldCupFlags-svg/700.svg"
+		},
+		{
+			"name":"Nigeria",
+			"img":"img/flags/worldCupFlags-svg/688.svg"
+		},
+		{
+			"name":"Senegal",
+			"img":"img/flags/worldCupFlags-svg/699.svg"
+		},
+		{
+			"name":"Australia",
+			"img":"img/flags/worldCupFlags-svg/643.svg"
+		},
+		{
+			"name":"Iran",
+			"img":"img/flags/worldCupFlags-svg/647.svg"
+		},
+		{
+			"name":"Korea",
+			"img":"img/flags/worldCupFlags-svg/682.svg"
+		},
+		{
+			"name":"Belgium",
+			"img":"img/flags/worldCupFlags-svg/645.svg"
+		},
+		{
+			"name":"Croatia",
+			"img":"img/flags/worldCupFlags-svg/656.svg"
+		},
+		{
+			"name":"Denemark",
+			"img":"img/flags/worldCupFlags-svg/660.svg"
+		},
+		{
+			"name":"England",
+			"img":"img/flags/worldCupFlags-svg/665.svg"
+		},
+		{
+			"name":"France",
+			"img":"img/flags/worldCupFlags-svg/666.svg"
+		},
+		{
+			"name":"Germany",
+			"img":"img/flags/worldCupFlags-svg/668.svg"
+		},
+		{
+			"name":"Iceland",
+			"img":"img/flags/worldCupFlags-svg/18262.svg"
+		},
+		{
+			"name":"Poland",
+			"img":"img/flags/worldCupFlags-svg/693.svg"
+		},
+		{
+			"name":"Portugal",
+			"img":"img/flags/worldCupFlags-svg/694.svg"
+		},
+		{
+			"name":"Spain",
+			"img":"img/flags/worldCupFlags-svg/704.svg"
+		},
+		{
+			"name":"Sweden",
+			"img":"img/flags/worldCupFlags-svg/705.svg"
+		},
+		{
+			"name":"Switzerland",
+			"img":"img/flags/worldCupFlags-svg/706.svg"
+		},
+		{
+			"name":"Costa Rica",
+			"img":"img/flags/worldCupFlags-svg/655.svg"
+		},
+		{
+			"name":"Mexico",
+			"img":"img/flags/worldCupFlags-svg/684.svg"
+		},
+		{
+			"name":"Panama",
+			"img":"img/flags/worldCupFlags-svg/18677.svg"
+		},
+		{
+			"name":"Argentina",
+			"img":"img/flags/worldCupFlags-svg/642.svg"
+		},
+		{
+			"name":"Brazil",
+			"img":"img/flags/worldCupFlags-svg/647.svg"
+		},
+		{
+			"name":"Colombia",
+			"img":"img/flags/worldCupFlags-svg/654.svg"
+		},
+		{
+			"name":"Peru",
+			"img":"img/flags/worldCupFlags-svg/642.svg"
+		},
+		{
+			"name":"Uruguay",
+			"img":"img/flags/worldCupFlags-svg/714.svg"
+		},
+		{
+			"name":"Japan",
+			"img":"img/flags/worldCupFlags-svg/680.svg"
+		}
+	],
+	"players":[
+        {
+			"name":"lionel Messi",
+			"img":"img/players/1.png",
+			"nationality":"Argentina",
+			"position":"Fowrard"
+		},
+		{
+			"name":"Neymar",
+			"img":"img/players/5.png",
+			"nationality":"Brazil",
+			"position":"Fowrard"
+        },
+        {
+			"name":"Sergio Agüero",
+			"img":"img/players/2.png",
+			"nationality":"Argentina",
+			"position":"Fowrard"
+		},
+		{
+			"name":"Eden Hazard",
+			"img":"img/players/8.png",
+			"nationality":"Belguim",
+			"position":"Play maker"
+		},
+		{
+			"name":"Harry kane",
+			"img":"img/players/10.png",
+			"nationality":"England",
+			"position":"Fowrard"
+        },
+        {
+			"name":"Di Maria",
+			"img":"img/players/3.png",
+			"nationality":"Argentina",
+			"position":"Play maker"
+        },
+        {
+			"name":"Gonzalo Higuain",
+			"img":"img/players/4.png",
+			"nationality":"Argentina",
+			"position":"Fowrard"
+        },
+        {
+			"name":"Philippe Coutinho",
+			"img":"img/players/6.png",
+			"nationality":"Brazil",
+			"position":"Play maker"
+        },
+        {
+			"name":"Gebriel Jesus",
+			"img":"img/players/7.png",
+			"nationality":"Brazil",
+			"position":"Fowrard"
+        },
+        {
+			"name":"kevin de bruyne",
+			"img":"img/players/9.png",
+			"nationality":"Belguim",
+			"position":"Play maker"
+        },
+        {
+			"name":"Antoine Griezmann",
+			"img":"img/players/11.png",
+			"nationality":"France",
+			"position":"Fowrard"
+        },
+        {
+			"name":"Alvaro Morata",
+			"img":"img/players/12.png",
+			"nationality":"Spain",
+			"position":"Fowrard"
+        }
+	],
+	"overview":[
+		{
+            "title":"The national teams participating in the 2018 FIFA World Cup will learn about their rivals and the way to the prized trophy on December 1 in the Kremlin."
+		},
+		{
+            "title":"Central Stadium, Yekatirinburg"
+        },
+        {
+            "title":"Ali mohamed ali"
+        } 
+    ],
+    "cupyear":[
+        {
+            "year":1930
+        },
+        {
+            "year":1934
+        },
+        {
+            "year":1938
+        },
+        {
+            "year":1950
+        },
+        {
+            "year":1954
+        },
+        {
+            "year":1958
+        },
+        {
+            "year":1962
+        },
+        {
+            "year":1966
+        },
+        {
+            "year":1970
+        },
+        {
+            "year":1974
+        },
+        {
+            "year":1978
+        },
+        {
+            "year":1982
+        },
+        {
+            "year":1986
+        },
+        {
+            "year":1990
+        },
+        {
+            "year":1994
+        },
+        {
+            "year":1998
+        },
+        {
+            "year":2002
+        },
+        {
+            "year":2006
+        },
+        {
+            "year":2010
+        },
+        {
+            "year":2014
+        },
+        {
+            "year":2018
+        }
+	],
+	"group":[
+        {
+            "title":"Teams"
+        },
+        {
+            "title":"W"
+        },
+        {
+            "title":"D"
+        },
+        {
+            "title":"L"
+        },
+        {
+            "title":"DG"
+        },
+        {
+            "title":"Pts"
+        }
+	],
+	"viewTeams":[
+        {
+            "title":"Host country"
+        },
+        {
+            "title":"Group"
+        },
+        {
+            "title":"Arabian teams"
+		},
+		{
+            "title":"Group"
+        },
+        {
+            "title":"Team"
+        },
+        {
+            "title":"Win"
+        }
+    ],
+    "groupsName":[
+        {
+            "title":"A"
+        },
+        {
+            "title":"B"
+        },
+        {
+            "title":"C"
+        },
+        {
+            "title":"D"
+        },
+        {
+            "title":"E"
+        },
+        {
+            "title":"F"
+        },
+        {
+            "title":"G"
+		},
+		{
+            "title":"H"
+        }
+	],
+	"filters":[
+        {
+            "title":"News"
+        },
+        {
+            "title":"Videos"
+        },
+        {
+            "title":"Infographics"
+        },
+        {
+            "title":"Matches"
+        },
+        {
+            "title":"Albums"
+        }
+	],
+	"infograph":[
+        {
+            "img":"img/infograph.jpg"
+        }
+        
+    ]
+}

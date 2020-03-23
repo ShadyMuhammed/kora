@@ -1,0 +1,38 @@
+-var page_type = 'advanced-search'
+-var title =["بحث عن ","تاريخ الإعلان","لغة الإعلان","الوظيفة","المؤهل","الخبرة","مجال العمل","الدولة","المدينة","الدولة","الراتب المتوقع","العملة"]
+#app-box.container
+  include ../components/_global-search.pug
+  .page-content
+    section.advanced-search
+      .input-box
+        .input-box__title بحث
+        .input-box__input
+          input(type="text")
+      //- .input-box
+      //-   .input-box__title تاريخ الإعلان
+      //-   .input-box__input
+      //-     input(type="date")
+      .input-box
+        .input-box__title لغة الإعلان
+        .input-box__input
+          select(name="")
+            option(value="2") عربي
+            option(value="3") English
+      .input-box
+        .input-box__title المؤهل
+        .input-box__input
+          select(name="")
+            option(value="0")
+            option(value="2") بكالريوس
+            option(value="3") ليسانس
+            option(value="3") دبلوم
+            option(value="3") لا يشترط
+      .input-box
+        .input-box__title الخبرة
+        .input-box__input
+          select(name="")
+            option(value="0")
+            option(value="2") 6 شهور - سنة
+            option(value="3") سنة - سنتين
+            option(value="3") 3 سنوات - 5 سنوات
+            option(value="3") لا يشترط

@@ -1,0 +1,30 @@
+.advanced-search{
+  width: 100%;
+  .input-box{
+    width: 100%;
+    margin-bottom: 15px;
+
+    &__title{
+      color: $gray1;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    &__input{
+      width: 100%;
+
+
+      input , select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        border: 1px solid $gray2;
+        background: #fff;
+        &:focus-within {
+          border: 1px solid $MainBlue;
+          outline: none;
+        }
+      }
+    }
+  }
+}

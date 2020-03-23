@@ -1,0 +1,148 @@
+.global-search {
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  // margin: 5px;
+  align-items: center;
+  padding: 15px;
+
+  &__results {
+    border-radius: 25px;
+    border: 1px solid $MainBlue;
+    position: relative;
+    display: flex;
+    padding: 10px 25px;
+    margin-#{$left}: 20px;
+    background: #fff;
+    .icons {
+
+      svg {
+        fill: $MainBlue;
+        height: 15px;
+
+      }
+      &:first-of-type{
+        cursor: pointer;
+        svg{
+          height: 12px;
+          fill: rgba(18,116,253,0.3);
+        }
+      }
+    }
+  }
+  &__keyWord {
+    &::placeholder {
+      color: $MainBlue;
+    }
+    color: $MainBlue;
+    margin: 0px 20px;
+    border: none;
+    outline: none;
+    .icons {
+      svg {
+        fill: $MainBlue;
+        height: 12px;
+      }
+    }
+  }
+  &__clear {
+    margin-#{$right}: auto;
+    margin-#{$left}: 20px;
+    color: $lightGry;
+  }
+  &__mainBtn {
+    height: 55px;
+    width: 140px;
+  }
+}
+
+
+.navigator-text {
+  display: flex;
+  margin: 23px 5px;
+  a {
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin-#{$left}: 10px;
+    line-height: 25px;
+    padding: 5px;
+    color: $gry;
+    &:first-of-type {
+      color: #444;
+
+      &:after {
+        color: #444;
+        height: 2px;
+      }
+      &:before {
+        color: #444;
+        height: 2px;
+      }
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      height: 1px;
+      width: 8px;
+      top: 45%;
+      #{$left}: -8px;
+      background: #000;
+      transform: rotate(-45deg * $reverse);
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      height: 1px;
+      width: 8px;
+      bottom: 35%;
+      background: #000;
+      #{$left}: -8px;
+
+      transform: rotate(45deg * $reverse);
+    }
+
+    &:last-of-type {
+      &:after {
+        display: none;
+      }
+      &:before {
+        display: none;
+        // height: 1px;
+        // width: 16px;
+        // #{$left}: -12px;
+        // top: 50%;
+        // background: $gry;
+        // transform: rotate(-70deg * $reverse);
+      }
+    }
+  }
+}
+
+.options{
+  display: flex;
+  margin : 20px 5px;
+.shadows{
+  box-shadow: 0px 0px 3px 1px rgba(18,116,253,0.3);
+  border: none;
+  &:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+  }
+  .icons{
+
+    svg{
+    fill :  rgba(18,116,253,0.6);
+    }
+  }
+}
+
+}
+
+#app-box {
+  margin-top: 60px;
+  @include mediaMin(1024px) {
+    margin-top: 145px;
+  }
+}

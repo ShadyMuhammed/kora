@@ -1,0 +1,14 @@
+// Add your SCSS styles here
+
+body {
+  padding-top: 54px;
+  font-family: $bodyFont;
+}
+*,button , div , p {
+  font-family: $bodyFont;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px !important;
+  }
+}

@@ -1,0 +1,69 @@
+header
+  .header
+    a.header__logo
+      .header__logo-holder
+        img(src="./img/logoKora.png", alt="")
+
+      .icons.no-touch#menuCollapse
+        span.menuCollapse
+    ul.header__nav
+      li
+        a(href="#")
+
+          h5.lgTitle الرئيسية
+          p.smallTitle
+      li
+        a(href="#")
+
+          h5.lgTitle كورة محلية
+      li
+        a(href="#")
+          h5.lgTitle   كورة عربية
+          //- p.smallTitle.touch
+      li
+        a(href="#")
+          h5.lgTitle كورة عالمية
+
+      li
+        a(href="#")
+          h5.lgTitle العاب اخرى
+
+      //- li
+      //-   a(href="#")
+      //-     h5.lgTitle رئيس مجلس الإدارة
+      //-     p.smallTitle   حمدي سعفان
+      //- li
+      //-   a(href="#")
+
+      //-     h5.lgTitle رئيس التحرير
+      //-     p.smallTitle    سعفان
+    .header__corner
+      a.header__cornerBtn.snapchat(href="#")
+        -var icon = {case:"snapchat"}
+        include ../shared/_icon.pug
+      a.header__cornerBtn.youtube(href="#")
+        -var icon = {case:"view-youtube"}
+        include ../shared/_icon.pug
+      a.header__cornerBtn.instagram(href="#")
+        -var icon = {case:"Instagram"}
+        include ../shared/_icon.pug
+      a.header__cornerBtn.rss(href="#")
+        -var icon = {case:"rss"}
+        include ../shared/_icon.pug
+      a.header__cornerBtn.twitter(href="#")
+        -var icon = {case:"twitter"}
+        include ../shared/_icon.pug
+      a.header__cornerBtn.facebook(href="#")
+        -var icon = {case:"facebook"}
+        include ../shared/_icon.pug
+      a.header__cornerBtn.Whatsapp(href="#")
+        -var icon = {case:"Whatsapp"}
+        include ../shared/_icon.pug
+      span.header__cornerBtn.search
+        span.open.active
+          -var icon = {case:"search"}
+          include ../shared/_icon.pug
+        span.close
+          -var icon = {case:"close"}
+          include ../shared/_icon.pug
+

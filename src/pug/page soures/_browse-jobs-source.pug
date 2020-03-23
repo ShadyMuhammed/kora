@@ -1,0 +1,7 @@
+#app-box.container
+  //- include ../components/_global-search.pug
+  .page-content
+    .lists-wrapper.row
+      -for(let x = 0 ; x < 8;x++)
+        div.lists-wrapper__space.col-lg-3.col-sm-6.col-md-4.col-xs-12
+          include ../components/_browse-list.pug

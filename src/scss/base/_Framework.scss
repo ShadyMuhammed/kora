@@ -1,0 +1,73 @@
+//[1] ICON LIB
+    .icons-lib{
+        text-align: center;
+        &__item{
+            border:1px solid $dviderColor;
+            height: 33vh;
+            min-height:200px;
+            border-left:none;
+            border-top:none;
+            display: flex;
+            justify-content: center; /* align horizontal */
+            align-items: center; /* align vertical */
+            transition:0.2s;
+            &:hover{
+                @include shadow(7);
+                border:$ts;
+                transform: scale(1.1);
+                z-index: 1;
+                background:$wh;
+            }
+            &:hover  &Icon{
+                color: $primaryColor;
+                fill: $primaryColor;
+            }
+            &Icon{
+                width: 5em;
+                height:5em;
+            }
+            &Title{
+                margin-top: $space;
+                color: $secondaryText;
+            }
+        }
+    }
+
+//[2] GUIDE LIST
+    .guideList{
+        background: lighten($dviderColor,3%);
+        border-#{$right}:1px solid darken($dviderColor,3%);
+        flex-basis: 40%;
+        flex-grow: 1;
+        min-width: 222px;
+        ul{
+            list-style-type: none;
+            position: fixed;
+            left: 0;
+            min-width: 222px;
+        }
+        ul, li{
+            margin: 0;
+            padding: 0;
+        }
+        &__item{
+            display: block;
+            padding:$space/2 $space;
+            border-bottom: 1px solid  darken($dviderColor,3%);
+        }
+    }    
+    .guideSection{
+        padding:$space;
+        border-top:1px solid  darken($dviderColor,3%);
+        &--noBorder{
+            border-top:none;
+        }
+        &__title{
+            margin-left:-$space;
+            margin-right:-$space;
+            padding-left:$space;
+            padding-right:$space;
+            margin-bottom:$space;
+            
+        }
+    }

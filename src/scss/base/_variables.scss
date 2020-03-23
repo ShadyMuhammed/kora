@@ -1,0 +1,130 @@
+/* Put your variables here */
+
+//colors
+    //shoghlantyMainColors #065CB3
+
+    $MainBlue :  #0e5fb1;
+    $Maingray : #5B5B5B ;
+	//pallet
+    $bk      : #000000;
+    $blue2    : #2095f2;
+    $green   : #03AB5F;
+
+    //$green2	 : #00C853;
+    $purple  : #9b26af;
+    $red     : #f34235;
+    $red2    : #d60107;
+    $teal    : #009688;
+    $pink    : #e91e63;
+    $ts      : transparent;
+    $ts-bk-15: rgba(0,0,0,0.15);
+    $ts-bk-50: rgba(39, 21, 21, 0.5);
+    $wh      : #fff;
+    $yellow  : #feea3a;
+    $yellow2 : #fff59d;
+    $orange : #ff8300;
+    $prColor : $orange;
+
+    //Grys
+        $gray1 : #5a5a5a;
+        $gray2 : #eee;
+        $darkGry : #080808;
+        $gry     : #A2A8B1;
+        $gry2     : #444444;
+        $gry3 : #f5f5f5;
+        $midGry  : #E8E7ED;
+        $midGry2 : #d8d8d8;
+        $midGry3 : #f4f4f4;
+        $midGry4: #ECEFF5;
+        $midGry5: #E7E9EC;
+        $lightGry: #BDBDBD;
+        $lightGry2: #eeeeee;
+        $offWhite: #F2F3F5;
+        $lightGreen:#b9f6ca;
+        $inputPLC : #A3A9B2;
+        $bodyBG	: #f9f9f9;
+        $abstractColor : #999999;
+        $bg:#fafafa;
+        $border-color:$midGry2;
+        $text-color:#37474F;
+        $date : #ccc;
+        $darkMode: #1d1e2b;
+
+//Socials
+    $facebook        : #3b5998;
+    $googlePlus      : #e02f2f;
+    $instagram       : #405de6;
+    $twitter         : #55acee;
+    $youtube         : #cd201f;
+    $rss             : #f26522;
+    $whatsapp		 : #25D366;
+
+//theme
+    $accentColor    : $bk;
+    $dviderColor    : $offWhite;
+    $primaryColor   : $orange;
+    $primaryText	: $darkGry;
+    $secondaryText	: $gry;
+    $borderColor : $lightGry2;
+    $greyText : $gry2;
+    $orangeHover : #f34449;
+    $title-color:#43525A;
+
+//screens
+$mobile    : 321px;
+$phablet   : 481px;
+$tablet-PRT: 769px;
+$tablet-LS : 1025px;
+$desktop   : 1281px;
+
+//spaces
+$fontSize  		:	 14;
+$lineHeight		:	1.5555556;
+$space     		:	20px ;
+$space-sm  		:	10px ;
+$grid-space		:	10px;
+$grid-space-sm  :	$space-sm/2 ;
+$pPercent       :	7.6%;
+
+
+//fonts
+
+@font-face {
+    font-family: 'Aljazeera';
+    src: url('fonts/Aljazeera/Al-Jazeera-Arabic-Regular.ttf');
+    font-weight:100;
+
+}
+@font-face {
+    font-family: 'Aljazeera-b';
+    src: url('fonts/Aljazeera/Al-Jazeera-Arabic-Bold.ttf');
+    font-weight:100;
+
+}
+
+
+$titleFont: 'Aljazeera';
+$boldFont: 'Aljazeera-b';
+$bodyFont : $titleFont;
+
+//direction
+$left      : "";
+$right     : "";
+$reverse   : "";
+
+@if($direction == 'ltr'){
+  $titleFont: 'Aljazeera';
+  $bodyFont : 'Aljazeera';
+  $left     : right;
+  $right    : left;
+  $reverse  : -1;
+  $dir:rtl;
+}
+@else{
+  $titleFont: 'Aljazeera';
+  $bodyFont : 'Aljazeera';
+  $left     : left;
+  $right    : right;
+  $reverse  : 1;
+  $dir:lrt;
+}

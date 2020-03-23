@@ -1,0 +1,50 @@
+.side-card{
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    padding: 7px;
+    margin-bottom: 15px;
+    &:hover{
+        
+        img{
+            transition: 0.4s;
+            transform: scale(1.09)
+        }
+        span{
+            transition: 0.4s;
+            color:#000;
+        }
+    }
+    &__img-holder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 3px;
+        height: 75px;
+        width: 100px;
+
+        img{
+            min-width: 100%;
+            min-height: 100%;
+        }
+    }
+    &__title{
+        height: 45px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 190px;
+    font-weight: 600;
+    }
+    &__date{
+        position: absolute;
+        right: 110px;
+        bottom: 7px;
+        &::after{
+            top : 5px ;
+        }
+    }
+}

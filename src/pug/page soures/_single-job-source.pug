@@ -1,0 +1,10 @@
+#app-box.container
+  include ../components/_global-search.pug
+  .page-content
+      section.main-section
+        include ../components/_job-details-card.pug
+      aside.custom-touch
+        include ../components/_mail-card.pug
+        h1.jobs-title.border.smPadding.lgTitle.mb15 أهم الوظائف
+        -for(let x =0 ; x < 2 ; x++)
+          include ../components/_small-job-card.pug
