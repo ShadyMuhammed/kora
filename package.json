@@ -75,6 +75,6 @@
     "vueify": "^9.4.1",
     "waypoints": "^4.0.1",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.11.3"
+    "webpack-dev-server": "^3.1.11"
   }
 }
